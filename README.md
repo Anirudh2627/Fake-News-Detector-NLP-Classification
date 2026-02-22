@@ -41,8 +41,6 @@ max_features: 50,000 - 80,000
 ngram_range: (1, 2) or (1, 3) to capture phrases.
 
 sublinear_tf: Applied logarithmic scaling to diminish the influence of high-frequency words.
-Model,Configuration,CV F1-Score
-Logistic Regression,C=10.0,0.9784
-SGD Classifier,alpha=1e−05,0.9818
-LinearSVC,"C=2.0, Balanced",0.9820
+<img width="309" height="114" alt="image" src="https://github.com/user-attachments/assets/dd63bd81-5b91-49f1-972d-a0d3de7edff9" />
+
 Final Model: The LinearSVC with balanced class weights was selected for the final submission due to its superior stability and performance.
